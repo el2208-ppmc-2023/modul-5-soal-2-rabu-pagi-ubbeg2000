@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "-1",
+      "output": "Jumlah donat harus positif!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "3",
+      "output": "Langkah untuk menyelesaikan masalah menara donat dengan 3 donat:\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 2 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 3 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 2 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nJumlah langkah minimal yang diperlukan Noor untuk memindahkan menara donat dari tiang A ke tiang C : 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "4",
+      "output": "Langkah untuk menyelesaikan masalah menara donat dengan 4 donat:\r\nNoor memindahkan donat 1 dari tiang A ke tiang B\r\nNoor memindahkan donat 2 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang C\r\nNoor memindahkan donat 3 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang A\r\nNoor memindahkan donat 2 dari tiang C ke tiang B\r\nNoor memindahkan donat 1 dari tiang A ke tiang B\r\nNoor memindahkan donat 4 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang C\r\nNoor memindahkan donat 2 dari tiang B ke tiang A\r\nNoor memindahkan donat 1 dari tiang C ke tiang A\r\nNoor memindahkan donat 3 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang B\r\nNoor memindahkan donat 2 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang C\r\nJumlah langkah minimal yang diperlukan Noor untuk memindahkan menara donat dari tiang A ke tiang C : 15",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "2",
+      "output": "Jumlah donat minimal 3 yaa!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "5",
+      "output": "Langkah untuk menyelesaikan masalah menara donat dengan 5 donat:\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 2 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 3 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 2 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 4 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 2 dari tiang C ke tiang A\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 3 dari tiang C ke tiang B\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 2 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 5 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 2 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 3 dari tiang B ke tiang A\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 2 dari tiang C ke tiang A\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 4 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nNoor memindahkan donat 2 dari tiang A ke tiang B\r\nNoor memindahkan donat 1 dari tiang C ke tiang B\r\nNoor memindahkan donat 3 dari tiang A ke tiang C\r\nNoor memindahkan donat 1 dari tiang B ke tiang A\r\nNoor memindahkan donat 2 dari tiang B ke tiang C\r\nNoor memindahkan donat 1 dari tiang A ke tiang C\r\nJumlah langkah minimal yang diperlukan Noor untuk memindahkan menara donat dari tiang A ke tiang C : 31",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
